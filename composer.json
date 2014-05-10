@@ -1,6 +1,6 @@
 {
-	"name": "laravel/laravel",
-	"description": "The Laravel Framework.",
+	"name": "ingeting/check",
+	"description": "Check! It's time to get productive",
 	"keywords": ["framework", "laravel"],
 	"license": "MIT",
 	"require": {

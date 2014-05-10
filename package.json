@@ -1,0 +1,30 @@
+{
+  "name": "Check",
+  "version": "0.0.1",
+  "description": "It's time to get productive",
+  "main": "public/index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ingeting/check.git"
+  },
+  "keywords": [
+    "productivity"
+  ],
+  "author": "Inge Thorud",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ingeting/check/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-uglify": "~0.4.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-sass": "~0.12.0",
+    "grunt-contrib-copy": "~0.5.0"
+  },
+  "homepage": "https://github.com/ingeting/check"
+}
