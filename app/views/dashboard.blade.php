@@ -44,13 +44,7 @@
         <div class="large-12 columns">
           <br/>
 
-				{{ Form::open(array('url' => 'tasks')) }}
-					<div class="row">
-						<div class="large-12 columns">
-    			{{ Form::text('taskDescription', '',array('placeholder'=>'Hva vil du?')) }}
-						<div>
-					</div>
-				{{ Form::close() }}
+
 
           <h4>The Psychohistorians</h4>
           <p>Set in the year 0 F.E. (&quot;Foundation Era&quot;), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful, it is slowly decaying in ways that parallel the decline of the Western Roman Empire. Hari Seldon, a mathematician and psychologist, has developed psychohistory, a new field of science and psychology that equates all possibilities in large societies to mathematics, allowing for the prediction of future events.</p>
@@ -66,10 +60,22 @@
       </div>
     </section>
 
+		<section id="taskbar">
+			{{ Form::open(array('url' => 'tasks')) }}
+				<div class="row">
+					<div class="large-12 columns">
+				{{ Form::text('taskDescription', '',array('placeholder'=>'Hva vil du?')) }}
+					<div>
+				</div>
+			{{ Form::close() }}
+		</section>
+
   <a class="exit-off-canvas"></a>
 
   </div>
 </div>
+
+
 
 
 
