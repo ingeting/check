@@ -15,3 +15,14 @@ Route::get('/', function()
 {
 	return View::make('dashboard');
 });
+
+
+Route::post('/tasks/', function()
+{
+	$description = Input::get('taskDescription');
+
+	print $description;
+
+	return true;
+	//return View::make('dashboard');
+});
