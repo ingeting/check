@@ -28,9 +28,13 @@ Route::get('/', function()
 	// Time until the train leaves.
 	// Status for the train?
 
+
+	// Style
+	// The background color should describe the state of my tasks - red, yellow, green
 	return View::make('dashboard');
 });
 
+Route::get('users/login', 'UserController@login');
 
 Route::get('/test/', function()
 {
